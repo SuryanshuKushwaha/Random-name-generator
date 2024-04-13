@@ -1,0 +1,55 @@
+HTML CODE :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="random_name_genrator.js"></script>
+</body>
+</html>
+
+
+  JAVASCRIPT CODE:
+              var rand=Math.random();
+            let first,second,third;
+
+            if(rand<0.33){
+                first="Pagal";
+            }
+            else if(0.33<rand && rand<0.66){
+                first="Cool";
+            }
+            else{
+                first="Dumb";
+            }
+
+
+            var rand=Math.random();
+
+            if(rand<0.33){
+                second="mahesh ......";
+            }
+            else if(0.33<rand && rand<0.66){
+                second="mahi";
+            }
+            else{
+                second="pappi bhai";
+            }
+
+            var rand=Math.random();
+
+            if(rand<0.33){
+                third="ltd";
+            }
+            else if(0.33<rand && rand<0.66){
+                third="enterprises";
+            }
+            else{
+                third="coorporation";
+            }
+
+
+            console.log(first,second,third);
