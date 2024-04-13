@@ -1,1 +1,3 @@
 # Random-name-generator
+
+This is a fun project using javascript to generate random names.........
