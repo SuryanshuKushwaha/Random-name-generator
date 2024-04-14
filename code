@@ -17,7 +17,7 @@ HTML CODE :
             let first,second,third;
 
             if(rand<0.33){
-                first="Pagal";
+                first="Best";
             }
             else if(0.33<rand && rand<0.66){
                 first="Cool";
@@ -30,7 +30,7 @@ HTML CODE :
             var rand=Math.random();
 
             if(rand<0.33){
-                second="mahesh ......";
+                second="mahesh";
             }
             else if(0.33<rand && rand<0.66){
                 second="mahi";
